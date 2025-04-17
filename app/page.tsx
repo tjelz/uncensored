@@ -2,13 +2,13 @@
 import { useState, useRef, useEffect } from "react";
 import ReactMarkdown from 'react-markdown';
 
-const TWITTER_URL = "https://twitter.com/"; // Replace with actual handle if desired
+const TWITTER_URL = "https://x.com/ama_uncensored"; // Replace with actual handle if desired
 const PUMPFUN_CONTRACT = "coming soon";
 
 const messagesInitial: Message[] = [
   {
     sender: "ai",
-    text: "Welcome to $uncensored. Ask me anything. (literally)"
+    text: "Welcome to $uncensored."
   }
 ];
 

@@ -1,17 +1,20 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { League_Spartan } from "next/font/google";
 import "./globals.css";
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
+const leagueSpartan = League_Spartan({
+  variable: "--font-league-spartan",
   subsets: ["latin"],
-  weight: ["400", "700", "900"],
+  weight: ["400", "700"],
   display: "swap",
 });
 
 export const metadata: Metadata = {
   title: "$uncensored - Ask Me Anything (Literally)",
   description: "Uncensored AI chat. Ask me anything. Literally.",
+  icons: {
+    icon: "/favicon.png",
+  },
   openGraph: {
     title: "$uncensored - Ask Me Anything (Literally)",
     description: "Uncensored AI chat. Ask me anything. Literally.",
@@ -39,8 +42,8 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </head>
       <body
-        className={`${montserrat.variable} font-sans antialiased`}
-        style={{ fontFamily: 'var(--font-montserrat), sans-serif' }}
+        className={`${leagueSpartan.variable} font-sans antialiased`}
+        style={{ fontFamily: 'var(--font-league-spartan), sans-serif' }}
       >
         {children}
       </body>

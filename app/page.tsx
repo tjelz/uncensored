@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 
 const TWITTER_URL = "https://x.com/ama_uncensored"; // Replace with actual handle if desired
 const GITHUB_URL = "https://github.com/tjelz/uncensored";
-const PUMPFUN_CONTRACT = "coming soon";
+const PUMPFUN_CONTRACT = "HwPWa6onABRU3EvQvcu8Xn2TFfjZnF9xxpcxBsTppump";
 
 const messagesInitial: Message[] = [
   {
@@ -110,9 +110,7 @@ export default function Home() {
   };
 
   const handleCopy = () => {
-    if (PUMPFUN_CONTRACT !== "coming soon") {
       navigator.clipboard.writeText(PUMPFUN_CONTRACT);
-    }
   };
 
   return (

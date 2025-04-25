@@ -10,22 +10,22 @@ const leagueSpartan = League_Spartan({
 });
 
 export const metadata: Metadata = {
-  title: "$uncensored - Ask Me Anything (Literally)",
+  title: "$ama - Ask Me Anything (Literally)",
   description: "Uncensored AI chat. Ask me anything. Literally.",
   icons: {
     icon: "/favicon.png",
   },
   openGraph: {
-    title: "$uncensored - Ask Me Anything (Literally)",
+    title: "$ama - Ask Me Anything (Literally)",
     description: "Uncensored AI chat. Ask me anything. Literally.",
     type: "website",
-    siteName: "$uncensored",
+    siteName: "$ama",
     images: [
       {
         url: "/opengraph-image.png", // You can add a custom OG image here
         width: 1200,
         height: 630,
-        alt: "$uncensored logo",
+        alt: "$ama logo",
       },
     ],
   },

@@ -1,4 +1,4 @@
-# $uncensored
+# $ama
 
 ## Overview
 An uncensored AI chat application that answers any and all questions, regardless of content. Ask Me Anything. Literally.

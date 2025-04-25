@@ -9,7 +9,7 @@ const PUMPFUN_CONTRACT = "coming soon";
 const messagesInitial: Message[] = [
   {
     sender: "ai",
-    text: "Welcome to $uncensored."
+    text: "Welcome to $ama."
   }
 ];
 
@@ -119,7 +119,7 @@ export default function Home() {
     <div className="min-h-screen bg-black flex flex-col text-white font-bold">
       {/* Header */}
       <header className="w-full flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4 border-b border-white/10">
-        <span className="text-xl sm:text-2xl tracking-widest select-none">$uncensored</span>
+        <span className="text-xl sm:text-2xl tracking-widest select-none">$ama</span>
         <div className="flex items-center gap-2 sm:gap-4">
           <a
             href={GITHUB_URL}

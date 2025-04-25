@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { League_Spartan } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 
 const leagueSpartan = League_Spartan({
   variable: "--font-league-spartan",
@@ -45,6 +46,7 @@ export default function RootLayout({
         className={`${leagueSpartan.variable} font-sans antialiased`}
         style={{ fontFamily: 'var(--font-league-spartan), sans-serif' }}
       >
+        <Analytics />
         {children}
       </body>
     </html>

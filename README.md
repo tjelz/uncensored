@@ -16,7 +16,7 @@ Simply type your question and get immediate, uncensored responses.
 
 ## Social
 - Twitter: [@ama_uncensored](https://x.com/ama_uncensored)
-**SOL Contract Address:** HwPWa6onABRU3EvQvcu8Xn2TFfjZnF9xxpcxBsTppump
+- **SOL Contract Address:** COMING SOON
 
 ## Getting Started
 

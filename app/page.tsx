@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 
 const TWITTER_URL = "https://x.com/ama_uncensored"; // Replace with actual handle if desired
 const GITHUB_URL = "https://github.com/tjelz/uncensored";
-const PUMPFUN_CONTRACT = "COMING SOON";
+const PUMPFUN_CONTRACT = "3me9snuZ4mNbHU3iHVXbs24w9pUVSC7mJ34YVR3kpump";
 
 const messagesInitial: Message[] = [
   {
